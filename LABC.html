@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Puzzle</title>
+
+    <link rel="stylesheet" href="LABC.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+<body>
+<h1 class="title">Układanka z mapą</h1>
+
+
+<div id="map-container">
+    <div id="map"></div>
+</div>
+
+
+<button id="locationBtn">Moja lokalizacja</button>
+<button id="downloadMapBtn">Pobierz mapę</button>
+
+
+<div id="puzzle-area">
+    <div id="puzzle-board"></div>
+    <div id="puzzle-pieces"></div>
+</div>
+
+
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<script src="https://unpkg.com/leaflet-image@latest/leaflet-image.js"></script>
+
+<script src="LABC.js"></script>
+</body>
+</html>
